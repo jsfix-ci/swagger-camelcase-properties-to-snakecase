@@ -3,7 +3,7 @@
 import * as path from 'path';
 import { readFileSync, readFile, writeFile } from '../util/file';
 import { swaggerCamelCasePropertiesToSnakeCase } from '..';
-import program from 'commander';
+import { program } from 'commander';
 import * as readline from 'readline';
 
 const meta = JSON.parse(
